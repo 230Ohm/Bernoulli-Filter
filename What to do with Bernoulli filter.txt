@@ -1,0 +1,24 @@
+Notes
+What to do with Bernoulli filter:
+
+They say it is for tracking so can we use the principles that are being used for tracking to make a guidance system that would help UAS/UAVs for better tracking/guidance give them more autonomy. 
+
+What are the principles behind these things? How do make them? How do we understand them fully to the point of teaching someone. 
+
+This is used for track initiation and termination. Something might need to be added to this. 
+The mathematics behind Bernoulli filter has 2 things according to ChatGpt:
+	Existence probability and State estimate. It repeats 2 steps predict and update. 
+
+This principle could be used for reverse jamming could it not. Me and James talked about this and it made quite much sense as to how we could go about this. 
+
+probability is r or existence probability 
+we do 1-r and r for X; X here is the target state
+There is no yes/no answer for Bernoulli Filter only a percentage chance. How do we use that percentage and say that it makes it a detect or not. After we do this we can see how to use it for something else. One thing at a time.
+
+r- = Ps(r)+Pb(1-r) . First term accounts for current target surviving and second one counts for a new target appearing when there is not one like clutter/jamming signals etc
+This is all for today we shall do more tomorrow. Date : 11/4/2026
+---------------------------------------------------------------------------------------
+Date : 11/05/2026
+Bayes Filter? need more info:
+	This will be done later tomorrow maybe. I don't know yet. It will be dated.
+Today we did a 1D tracking.
