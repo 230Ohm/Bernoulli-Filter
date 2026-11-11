@@ -22,3 +22,10 @@ Date : 11/05/2026
 Bayes Filter? need more info:
 	This will be done later tomorrow maybe. I don't know yet. It will be dated.
 Today we did a 1D tracking.
+-----------------------------------------------------------------------------------------
+Date 11/08/2026
+
+We learned about estimation theory yestraday and it was nice. I did a few proofs and this started to make sense. Gaussian (noise), Kalman filters,etc
+We estimate the noise in a perfect world the noise would be 0 and the Estimate of z would equal the estimate of x, where x is the initial state and z is the state we get. 
+z = x + Gaussian(noise). There are many different ways to do this and I think that we should explore them and decide on one specific thing to implement this to so that we do not get lost into a hole.
+I think we should start with 2d tracking since we did 1d tracking. This would be better in linux due to the pythn env.
